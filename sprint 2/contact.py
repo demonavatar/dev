@@ -2,7 +2,7 @@ class Contact:
     name: str
     year_birth: int
     is_programmer: bool
-           
+
     def __init__(self,
                  name: str,
                  year_birth: int,
@@ -25,8 +25,8 @@ class Contact:
 
     def show_contact(self) -> str:
         return (f'{self.name}, '
-               f'категория: {self.age_define()}, '
-               f'статус: {self.programmer_define()}')
+                f'категория: {self.age_define()}, '
+                f'статус: {self.programmer_define()}')
 
     def print_contact(self) -> None:
         print(self.show_contact())
